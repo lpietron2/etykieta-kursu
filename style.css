@@ -1,0 +1,56 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+.kursy{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#kurs-grow:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.kurs-online{
+    width: 310px;
+    height: 250px;
+    background: linear-gradient(rgba(48, 10, 78, 0.38),rgba(48, 10, 78, 0.38)), url("excel-not-really.png") no-repeat;
+    position: relative;
+    transition: ease-in-out .3s;
+}
+
+.kurs-online > *{
+    color: #F3EDF4;
+    padding: 0 19px 0 19px;
+}
+.kurs-online h1{
+    padding-top: 38px;
+}
+
+.kurs-online .hours{
+    font-size: 16px;
+    margin: 0;
+    margin-top: -10px
+}
+
+.kurs-online .category{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+}
+.kurs-online .date{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+}
+.kurs-online .status{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+}
